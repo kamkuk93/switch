@@ -1,0 +1,46 @@
+.button {
+    font-family: 'Gilroy';
+    font-weight: 500;
+    font-size: 15pt;
+    text-decoration: none;
+    padding: 7px 12px;
+    background: none;
+    border: 2px solid #ED1C24;
+    border-radius: 27px;
+    height: 54px;
+    width: 100%;
+    cursor: pointer;
+    outline:none;
+
+}
+
+.secondary {
+    font-family: 'Gilroy';
+    font-weight: 500;
+    font-size: 15pt;
+    text-decoration: none;
+    padding: 7px 12px;
+    background: none;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    outline:none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+// .secondary {
+//     @extend .button;
+//     border: none;
+//     font-size: 14px;
+// }

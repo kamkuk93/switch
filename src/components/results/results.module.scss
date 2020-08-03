@@ -1,0 +1,25 @@
+.wrapper{
+    position: absolute;
+    height: auto;
+    width: 100vw;
+    background-color: #F2F2F2;
+    margin-top: 180px;
+    padding: 0px 80px;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+  }
+
+.item{
+        height: 600px;
+        flex-basis: 400px;
+        margin-top: 50px;
+
+        border-radius: 20px;
+        background-color: rgb(65, 65, 71);
+ 
+       
+}

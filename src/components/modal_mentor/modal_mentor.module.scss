@@ -1,0 +1,57 @@
+.wrapper {
+    position: absolute;
+    z-index: 2;
+    display: block;
+
+    top: 100px;
+    // transform: translate(-50%);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 40vw;
+    height: 80vh;
+    
+    background-color: rgb(247, 243, 243);
+    box-shadow: 0 20px 40px -10px;
+}
+
+.title{
+    margin: 100px 0 20px 100px;
+    font-family: 'Gilroy';
+    font-weight: 500;
+    font-size: 27pt;
+    text-decoration: none;
+}
+
+.closeButton {
+    position: absolute;
+    right: 20px;
+    top: 26px;
+    background: none;
+    border: none;
+    
+    border-radius: 2px;
+    height: 4px;
+    width: 30px;
+    cursor: pointer;
+    outline:none;
+    background-color: #ED1C24;
+    transform: rotate(45deg);
+}
+
+.closeButton::after {
+    content: '';
+    display: block;
+
+    background: none;
+    border: none;
+    border-radius: 2px;
+    height: 4px;
+    width: 30px;
+    cursor: pointer;
+    outline:none;
+    background-color: #ED1C24;
+    transform: rotate(90deg);
+    margin-left: -6px;
+}
+

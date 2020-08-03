@@ -1,0 +1,28 @@
+.wrapper{
+    position: relative;
+z-index: 1;
+
+    display: grid;
+    height: 400px;
+    width: 100vw;
+    background-color: red;
+    padding: 0px 0px 0 80px;
+    
+    grid-template-columns: repeat(12, 1fr);
+
+    align-items: center;
+
+    grid-gap: 31px;
+
+}
+
+
+.background {
+    height: 100%;
+    width: 100%;
+
+    grid-column: 5/13;
+    background-color: green;
+
+
+}
